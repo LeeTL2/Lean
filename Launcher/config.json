@@ -365,7 +365,7 @@
   "regression-test-languages": [ "CSharp", "Python" ],
 
   // Additional paths to include in python for import resolution
-  "python-additional-paths": ["lean-engine/Launcher/bin/Release"],
+  "python-additional-paths": ["Launcher/bin/Release"],
 
   "environments": {
 
