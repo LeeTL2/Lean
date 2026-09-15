@@ -22,7 +22,7 @@
   //"composer-dll-directory": ".",
 
   // engine
-  "data-folder": "../../../Data/",
+  "data-folder": "Data/",
 
   // debugging configuration - options for debugging-method LocalCmdLine, VisualStudio, Debugpy, PyCharm
   "debugging": false,
@@ -365,7 +365,7 @@
   "regression-test-languages": [ "CSharp", "Python" ],
 
   // Additional paths to include in python for import resolution
-  "python-additional-paths": [],
+  "python-additional-paths": ["lean-engine/Launcher/bin/Release"],
 
   "environments": {
 
